@@ -157,9 +157,9 @@ int main(){
     std::vector<char> str_real = {'t','s','u','d','a','n','u','m','a'};
 
     cv::Mat img_maru, img_batu, img_boad, img_boad_clone;
-    img_maru = cv::imread("/home/ikebe/Pictures/学校用/tudanuma_yes.jpg");
-    img_batu = cv::imread("/home/ikebe/Pictures/学校用/tudanuma_filter.jpg");
-    img_boad = cv::imread("/home/ikebe/Pictures/学校用/kokuban.jpg");
+    img_maru = cv::imread("tudanuma_yes.jpg");
+    img_batu = cv::imread("tudanuma_filter.jpg");
+    img_boad = cv::imread("kokuban.jpg");
     resize(img_maru, img_maru, cv::Size(), 2, 2);
     resize(img_batu, img_batu, cv::Size(), 2, 2);
     resize(img_boad, img_boad, cv::Size(), 5, 5);
